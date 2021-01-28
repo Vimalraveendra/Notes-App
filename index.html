@@ -8,13 +8,17 @@
 </head>
 <body>
      <div class="notes">
-         <button> <i class="fas fa-edit"></i></button>
-         <button><i class="fas fa-trash-alt"></i></button>
          <div class="tools">
-            </div>
-         <textarea name="text" ></textarea>
-
+             <button id="edit"> <i class="fas fa-edit"></i></button>
+             <button id="delete"><i class="fas fa-trash-alt"></i></button>
+        </div>
+         <div class="main"></div>
+         <div class="text-area">
+             <textarea name="text" class="textarea" ></textarea>
+             <button>Add</button>
+         </div>
      </div>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.2.8/marked.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
